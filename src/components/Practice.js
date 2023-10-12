@@ -5,7 +5,8 @@ const Practice = () => {
         <div>
             <section className="movie-section">
                 <div className="movie-card">
-                        <img src={movie.Poster} alt="" />
+                        <img src={cinema} alt="" />
+                        <img src={movie} alt="" />
                     <div className="card-content">
                         <p className="title">{movie.Title}</p>
                         <p className="card-text">{movie.Released}</p>
