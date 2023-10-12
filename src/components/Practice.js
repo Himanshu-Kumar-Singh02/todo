@@ -5,14 +5,14 @@ const Practice = () => {
         <div>
             <section className="movie-section">
                 <div className="movie-card">
-                        <img src={cinema} alt="" />
+                    <figure>
+                    <img src={cinema} alt="" />
                         <img src={movie} alt="" />
+                    </figure>
                     <div className="card-content">
                         <p className="title">{movie.Title}</p>
                         <p className="card-text">{movie.Released}</p>
                         <p className="card-text">{movie.Genre}</p>
-                        <p className="card-text">{movie.imdbRating}</p>
-                        <p className="card-text">{movie.Country}</p>
                         <NavLink to="/" className="back-btn">Go Back</NavLink>
                     </div>
                 </div>
